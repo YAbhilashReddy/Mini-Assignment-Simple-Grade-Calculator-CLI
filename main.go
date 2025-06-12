@@ -34,7 +34,7 @@ func main() {
 }
 
 func calculatingStudentGrading(marks int) string {
-	if marks >= 90 {
+	if marks >= 90  || marks <= 100{
 		return "A"
 	} else if marks >= 80 {
 		return "B"
